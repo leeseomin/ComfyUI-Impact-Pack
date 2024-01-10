@@ -5,6 +5,18 @@
 **Custom nodes pack for ComfyUI**
 This custom node helps to conveniently enhance images through Detector, Detailer, Upscaler, Pipe, and more.
 
+## Installation
+
+1. `cd custom_nodes`
+1. `git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git`
+3. `cd ComfyUI-Impact-Pack`
+4. `python install.py`
+   * Impact Pack will automatically install its dependencies during its initial launch.
+   * For the portable version, you should execute the command `..\..\..\python_embeded\python.exe install.py` to run the installation script.
+  
+   
+
+
 
 ## NOTICE
 * V4.20.1: Due to the feature update in `RegionalSampler`, the parameter order has changed, causing malfunctions in previously created `RegionalSamplers`. Please adjust the parameters accordingly.
